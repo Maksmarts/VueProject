@@ -1,0 +1,122 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: rgba(165, 165, 165, 0.329);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+}
+.stiker{
+    background: url(1.png), no-repeat;
+    width: 880px;
+    height: 880px;
+    background-size: cover;
+    /* background: url(1.png), no-repeat;
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    */
+    
+}
+.textbox{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    transform: rotate(-3deg);
+    font-style:normal;
+    font-family: 'Neucha';  
+}
+  h1{
+font-size: 45px;
+letter-spacing: 0.01px;
+line-height: 1.2;
+  } 
+  hr{
+    width: 800px;
+    height: 2px;
+    margin: 12px;
+  }
+  .in{
+    padding: 5px;
+    padding-left: 15px;
+    width: 300px;
+    height: 25px;
+    border: 0px;
+    border-bottom: 2px solid gray;
+    border-color: black;
+    border-radius: 30px; 
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+  button{
+    border-radius: 17px;
+    border: 2px solid #9b9b9b;
+    background-color: aliceblue;
+   width: 150px;
+   height: 25px;
+   margin-bottom: 5px;
+   font-size: 15px;
+   
+  }
+  button:active{
+    transition: 200ms;
+    transform: scale(0.98);
+    transition: 200ms;
+    color: #9b9b9b;
+
+  }
+  h3{
+    font-size: 30px;
+  }
+  hr{
+    margin-right: 30px;
+  }
+li{
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 40px; 
+  user-select: none; 
+}
+
+/* li:before {
+  content: "✔";
+  color: #000;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-image: initial;
+  color: rgba(128, 128, 128, 0.295);
+  vertical-align: middle;
+  
+} */
+li:hover   {
+  text-decoration:line-through;
+  
+}
+
+
+.check{
+  display: none;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
